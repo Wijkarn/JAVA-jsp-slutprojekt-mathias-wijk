@@ -1,0 +1,41 @@
+.centerRow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.centerColumn {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+form.centerColumn{
+	border: solid darkgray 2px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+body {
+	background-color: #1b1b1b;
+}
+
+p {
+	margin: 10px;
+	padding: 0;
+	color: white;
+	font-size:20px;
+}
+
+.form {
+	margin: 0;
+}
+
+input.button {
+	padding: 5px;
+}
+
+h1{
+	color: white;
+}
